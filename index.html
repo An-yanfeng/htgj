@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="canvas.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/shape.js"></script>
+    <script src="js/canvas.js"></script>
+    <title>画图工具</title>
+    <script>
+
+    </script>
+</head>
+<body>
+<img src="" alt="">
+<ul class="menu">
+    <li class="parent hasson">
+        <div><img src="image/wj.jpg"></div>
+        <ul class="son file">
+            <li><a href="#">新建</a></li>
+            <li><a href="#">返回</a></li>
+            <li><a href="#">保存</a></li>
+        </ul>
+    </li>
+
+
+    <li class="parent">
+        <div class="select"><img src="image/cj.jpg"></div>
+    </li>
+
+    <li class="parent hasson shapes">
+        <div title="画图"><img src="image/ht.jpg"></div>
+        <ul class="son shapes">
+            <li data-role="line"><a href="#"><img src="image/3.jpg"></a></li>
+            <li data-role="rect"><a href="#"><img src="image/4.jpg"></a></li>
+            <li data-role="circle"><a href="#"><img src="image/5.jpg"></a></li>
+            <li data-role="pen"><a href="#"><img src="image/6.jpg"></a></li>
+            <li data-role="five"><a href="#"><img src="image/7.jpg"></a></li>
+        </ul>
+    </li>
+
+    <li class="parent hasson">
+        <div title="类型"><img src="image/tc.jpg"></div>
+        <ul class="son type">
+            <li data-role="stroke"><a href="#"><img src="image/hx.jpg"></a></li>
+            <li data-role="fill"><a href="#"><img src="image/lx.jpg"></a></li>
+        </ul>
+    </li>
+
+    <li class="parent">
+        <div title="线条的颜色" class="lineColor">
+            <input type="color">
+        </div>
+
+    </li>
+
+    <li class="parent">
+        <div title="填充的颜色" class="fillColor">
+            <input type="color"></div>
+
+    </li>
+
+    <li class="parent hasson">
+        <div title="线条的宽度"><img src="image/x.jpg"></div>
+        <ul class="son lineWidth">
+            <li data-role="1"><a href="#"><img src="image/xx.jpg"></a></li>
+            <li data-role="4"><a href="#"><img src="image/zx.jpg"></a></li>
+            <li data-role="8"><a href="#"><img src="image/cx.jpg"></a></li>
+        </ul>
+    </li>
+
+    <li class="parent hasson">
+        <div title="橡皮"><img src="image/2.jpg"></div>
+        <ul class="son xpsize">
+            <li data-role="8"><a href="#"><img src="image/2.jpg"></a></li>
+            <li data-role="16"><a href="#"><img src="image/2.jpg"></a></li>
+            <li data-role="32"><a href="#"><img src="image/2.jpg"></a></li>
+        </ul>
+    </li>
+
+
+</ul>
+<div class="container">
+
+    <div class="box">
+
+        <div class="copy"></div>
+        <canvas></canvas>
+        <div class="xp"></div>
+        <div class="selectarea"></div>
+    </div>
+</div>
+<div class="dt">
+    <img src="image/1.gif">
+</div>
+</body>
+</html>
